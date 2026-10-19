@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ClearPath Ad Shield</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main class="panel">
+    <header class="brand">
+      <div class="logo" aria-hidden="true">CP</div>
+      <div>
+        <h1>ClearPath</h1>
+        <p class="subtitle">Ad Shield</p>
+      </div>
+    </header>
+
+    <section class="status-card">
+      <div class="status-copy">
+        <span id="statusDot" class="dot"></span>
+        <div>
+          <h2 id="statusTitle">Checking protection…</h2>
+          <p id="statusDescription">Loading your settings</p>
+        </div>
+      </div>
+      <label class="switch" aria-label="Toggle ad blocking">
+        <input id="toggle" type="checkbox">
+        <span class="slider"></span>
+      </label>
+    </section>
+
+    <section class="stats">
+      <div class="stat">
+        <strong id="ruleCount">30</strong>
+        <span>filter rules</span>
+      </div>
+      <div class="stat">
+        <strong>MV3</strong>
+        <span>extension platform</span>
+      </div>
+    </section>
+
+    <p id="message" class="message" role="status"></p>
+    <footer>Protection is based on a built-in domain list. Some ads and redirects may still get through.</footer>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>

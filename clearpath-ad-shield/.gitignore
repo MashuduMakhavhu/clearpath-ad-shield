@@ -1,0 +1,8 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Keep generated build output out of version control
+dist/
