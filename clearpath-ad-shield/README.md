@@ -2,7 +2,7 @@
 
 A lightweight Chrome extension built with **JavaScript, HTML, and CSS** using **Manifest V3**. It blocks requests to a curated list of known advertising, tracking, pop-up, and redirect domains.
 
-> **Project status:** Learning / portfolio project. The built-in filter list is intentionally small and is not a replacement for a mature content blocker.
+> **Project status:** Learning project. The built-in filter list is intentionally small and is not a replacement for a mature content blocker.
 
 ## Features
 
